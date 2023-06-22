@@ -1,0 +1,39 @@
+{
+  "name": "app_epam_practik",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Rustam",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "normalize.css": "^8.0.1",
+    "reset.css": "^2.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "web-audio-api": "^0.2.2",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webrtc-adapter": "^8.0.0",
+    "ws": "^7.4.6",
+    "websocket": "^1.0.34"
+  },
+  "dependencies": {
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2"
+}
+}
